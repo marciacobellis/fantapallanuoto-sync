@@ -18,6 +18,17 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Controlla i file presenti
+        run: |
+          echo "== COMMIT =="
+          git rev-parse HEAD
+          echo "== BRANCH =="
+          git branch -a
+          echo "== FILE NELLA ROOT =="
+          ls -la
+          echo "== DOVE E' fanta.py =="
+          find . -name "fanta.py"
+
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"

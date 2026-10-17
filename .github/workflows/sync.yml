@@ -1,0 +1,46 @@
+name: Sync FantaPallanuoto
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-fanta
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Installa dipendenze
+        run: pip install -r requirements.txt
+
+      - name: Aggiorna i dati reali su Supabase
+        run: python fanta.py
+
+      - name: Segna il giorno di esecuzione
+        if: always()
+        run: python -c "import datetime;open('last_run.txt','w',encoding='utf-8').write(datetime.date.today().isoformat()+'\n')"
+
+      - name: Salva lo storico aggiornato nel repository
+        run: |
+          git config user.name "fanta-sync-bot"
+          git config user.email "fanta-sync-bot@users.noreply.github.com"
+          if [ -n "$(git status --porcelain fanta_history.json last_run.txt)" ]; then
+            git add fanta_history.json last_run.txt
+            git commit -m "chore: aggiorna dati reali [skip ci]"
+            git push
+          else
+            echo "Nessuna modifica da salvare"
+          fi

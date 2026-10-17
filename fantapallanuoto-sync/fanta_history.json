@@ -1,0 +1,203 @@
+{
+ "giornate": {
+  "2": {
+   "8": {
+    "gol": 0,
+    "esp": 0,
+    "played": true
+   },
+   "20": {
+    "gol": 1,
+    "esp": 1,
+    "played": true
+   },
+   "7": {
+    "gol": 3,
+    "esp": 0,
+    "played": true
+   },
+   "19": {
+    "gol": 2,
+    "esp": 0,
+    "played": true
+   },
+   "15": {
+    "gol": 2,
+    "esp": 0,
+    "played": true
+   },
+   "10": {
+    "gol": 1,
+    "esp": 0,
+    "played": true
+   },
+   "21": {
+    "gol": 1,
+    "esp": 0,
+    "played": true
+   },
+   "16": {
+    "gol": 1,
+    "esp": 0,
+    "played": true
+   },
+   "9": {
+    "gol": 1,
+    "esp": 0,
+    "played": true
+   },
+   "11": {
+    "gol": 4,
+    "esp": 0,
+    "played": true
+   },
+   "22": {
+    "gol": 4,
+    "esp": 0,
+    "played": true
+   },
+   "13": {
+    "gol": 0,
+    "esp": 0,
+    "played": true
+   },
+   "14": {
+    "gol": 2,
+    "esp": 0,
+    "played": true
+   },
+   "12": {
+    "gol": 4,
+    "esp": 0,
+    "played": true
+   },
+   "24": {
+    "gol": 0,
+    "esp": 0,
+    "played": true
+   },
+   "26": {
+    "gol": 2,
+    "esp": 0,
+    "played": true
+   },
+   "29": {
+    "gol": 2,
+    "esp": 0,
+    "played": true
+   },
+   "30": {
+    "gol": 2,
+    "esp": 0,
+    "played": true
+   },
+   "31": {
+    "gol": 0,
+    "esp": 0,
+    "played": true
+   }
+  },
+  "1": {
+   "24": {
+    "gol": 0,
+    "esp": 0,
+    "played": true
+   },
+   "26": {
+    "gol": 0,
+    "esp": 0,
+    "played": true
+   },
+   "29": {
+    "gol": 4,
+    "esp": 0,
+    "played": true
+   },
+   "30": {
+    "gol": 1,
+    "esp": 0,
+    "played": true
+   },
+   "31": {
+    "gol": 2,
+    "esp": 0,
+    "played": true
+   },
+   "3": {
+    "gol": 0,
+    "esp": 0,
+    "played": true
+   },
+   "20": {
+    "gol": 1,
+    "esp": 0,
+    "played": true
+   },
+   "7": {
+    "gol": 4,
+    "esp": 0,
+    "played": true
+   },
+   "19": {
+    "gol": 1,
+    "esp": 0,
+    "played": true
+   },
+   "17": {
+    "gol": 1,
+    "esp": 0,
+    "played": true
+   },
+   "15": {
+    "gol": 1,
+    "esp": 0,
+    "played": true
+   },
+   "10": {
+    "gol": 1,
+    "esp": 0,
+    "played": true
+   },
+   "21": {
+    "gol": 2,
+    "esp": 0,
+    "played": true
+   },
+   "16": {
+    "gol": 2,
+    "esp": 0,
+    "played": true
+   },
+   "9": {
+    "gol": 5,
+    "esp": 0,
+    "played": true
+   },
+   "18": {
+    "gol": 2,
+    "esp": 1,
+    "played": true
+   },
+   "11": {
+    "gol": 1,
+    "esp": 0,
+    "played": true
+   },
+   "8": {
+    "gol": 0,
+    "esp": 0,
+    "played": true
+   },
+   "14": {
+    "gol": 3,
+    "esp": 0,
+    "played": true
+   },
+   "12": {
+    "gol": 0,
+    "esp": 0,
+    "played": true
+   }
+  }
+ }
+}

@@ -21,10 +21,9 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-          cache: pip
 
       - name: Installa dipendenze
-        run: pip install -r requirements.txt
+        run: pip install feedparser beautifulsoup4
 
       - name: Aggiorna i dati reali su Supabase
         run: python fanta.py

@@ -198,6 +198,43 @@
     "esp": 0,
     "played": true
    }
+  },
+  "3": {
+   "24": {
+    "gol": 0,
+    "esp": 0,
+    "played": true
+   },
+   "34": {
+    "gol": 6,
+    "esp": 0,
+    "played": true
+   },
+   "26": {
+    "gol": 0,
+    "esp": 0,
+    "played": true
+   },
+   "29": {
+    "gol": 1,
+    "esp": 1,
+    "played": true
+   },
+   "30": {
+    "gol": 3,
+    "esp": 0,
+    "played": true
+   },
+   "28": {
+    "gol": 7,
+    "esp": 0,
+    "played": true
+   },
+   "31": {
+    "gol": 4,
+    "esp": 0,
+    "played": true
+   }
   }
  }
 }

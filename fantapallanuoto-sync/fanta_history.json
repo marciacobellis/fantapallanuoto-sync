@@ -95,6 +95,11 @@
     "gol": 0,
     "esp": 0,
     "played": true
+   },
+   "35": {
+    "gol": 8,
+    "esp": 0,
+    "played": true
    }
   },
   "1": {
@@ -119,6 +124,11 @@
     "played": true
    },
    "31": {
+    "gol": 2,
+    "esp": 0,
+    "played": true
+   },
+   "35": {
     "gol": 2,
     "esp": 0,
     "played": true
@@ -232,6 +242,11 @@
    },
    "31": {
     "gol": 4,
+    "esp": 0,
+    "played": true
+   },
+   "35": {
+    "gol": 0,
     "esp": 0,
     "played": true
    }

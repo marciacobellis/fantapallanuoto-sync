@@ -2,7 +2,9 @@ name: Sync FantaPallanuoto
 
 on:
   schedule:
-    - cron: "*/30 * * * *"
+    # Due volte ogni ora, ma ai minuti 9 e 39 (non :00/:30): GitHub salta spesso
+    # gli scheduled run caduti all'inizio dell'ora per l'eccessivo carico di Actions.
+    - cron: "9,39 * * * *"
   workflow_dispatch:
 
 permissions:
@@ -19,9 +21,9 @@ jobs:
       run:
         working-directory: fantapallanuoto-sync
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v7
         with:
           python-version: "3.12"
 
